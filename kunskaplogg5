@@ -1,0 +1,8 @@
+ 
+## Vecka 42 – GraphQL-API v1
+
+### Vad jag förstått
+
+**Fullstack 2, 11 och 19:** GraphQL låter klienten fråga efter exakt de fält den behöver i stället för att få ett fast svar som i REST. Det gör API:t mer flexibelt och minskar överflödig data, men kräver att schemat är tydligt definierat. Ett tredje beslutsdokument behövs för att argumentera för varför vi väljer GraphQL framför REST i vårt projekt. I vårt arbete syns det genom att vi sätter upp ett GraphQL-API med schema och resolver i `api/src/graphql/schema.js`.
+
+**Cloud 3, 4 och 10:** En CI/CD-pipeline automatiserar stegen från kod till driftsättning – test, bygge och deploy – så att varje ändring hanteras likadant. Docker paketerar appen med alla dess beroenden i en container, vilket ger samma miljö oavsett var den körs. I vårt arbete syns det genom att vi kör appen i Docker-containers och kopplar in en pipeline som kör typecheck och tester innan deploy.
