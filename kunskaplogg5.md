@@ -1,6 +1,8 @@
  
 ## Vecka 42 – GraphQL-API v1
 
+**Kursmål**: Fullstack 2 (redogöra för GraphQL – nu klientsidan: cache, och vad en fråga kostar) · Fullstack 11 (implementera ett GraphQL-API – med N+1 åtgärdat) · Fullstack 12 (utveckling i TypeScript – typerna genereras ur schemat) · Cloud 6 (teststrategier och testningens betydelse i CI/CD-pipelines) · Cloud 11 (implementera och integrera automatiserade tester i CI/CD-pipelines)
+
 ### Vad jag förstått
 
 **Fullstack 2, 11 och 19:** GraphQL låter klienten fråga efter exakt de fält den behöver i stället för att få ett fast svar som i REST. Det gör API:t mer flexibelt och minskar överflödig data, men kräver att schemat är tydligt definierat. Ett tredje beslutsdokument behövs för att argumentera för varför vi väljer GraphQL framför REST i vårt projekt. I vårt arbete syns det genom att vi sätter upp ett GraphQL-API med schema och resolver i `api/src/graphql/schema.js`.
